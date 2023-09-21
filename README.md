@@ -1,1 +1,1 @@
-# vegan..github.io
+# vegan.github.io
