@@ -1,0 +1,681 @@
+@media (max-width: 1140px) {
+  .test-img {
+    padding-left: 16px;
+  }
+
+  .head-row {
+    display: grid;
+    grid-template-columns: 55% 45%;
+    padding: 17px 20px;
+    align-items: center;
+  }
+
+  #check:checked ~ .toogle-sidebar .nav {
+    right: 83px;
+  }
+
+  .nav {
+    width: 27%;
+  }
+
+  .nav-1 {
+    display: none;
+  }
+
+  .energy-text-left-one p {
+    padding: 10px 60px 0 0px;
+  }
+
+  .energy-text-left-two p {
+    padding: 10px 60px 0 0px;
+  }
+
+  .news-email {
+    display: grid;
+    grid-template-columns: 19% 62% 18%;
+  }
+
+  .contact {
+    margin-left: 20px;
+  }
+
+  .footer-row {
+    padding: 50px 30px 0;
+  }
+
+  .about-row {
+    padding: 0 30px;
+  }
+
+  .about-image {
+    text-align: center;
+  }
+
+  .about-text p {
+    font-size: 13px;
+  }
+
+  .about-text h2 {
+    font-size: 25px;
+  }
+
+  .menu {
+    padding: 100px 0;
+  }
+
+  .menu-head-box h2 {
+    font-size: 25px;
+  }
+
+  .food-colum {
+    width: 100%;
+    display: flex;
+    padding: 30px 35px;
+    position: relative;
+  }
+
+  .food-image {
+    width: 40%;
+  }
+
+  .food-image img {
+    width: 100%;
+  }
+
+  .food-overlay a {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+  }
+
+  .team-row {
+    display: flex;
+    padding: 80px 20px 0;
+  }
+
+  .team-back {
+    padding-bottom: 35%;
+  }
+
+  .gallery-coulm {
+    width: 50%;
+  }
+
+  .energy-content {
+    padding: 100px 0;
+    position: static;
+  }
+
+  .energy-text-up {
+    text-align: center;
+    position: static;
+    margin: 40px 0;
+  }
+
+  .energy-text-up::after {
+    display: none;
+  }
+
+  .energy-text-left-one {
+    position: static;
+    max-width: none;
+    text-align: center;
+    margin: 40px 0;
+  }
+
+  .energy-text-left-one h3 {
+    padding: 10px 0;
+  }
+
+  .energy-text-left-one p {
+    padding: 0;
+  }
+
+  .energy-text-left-one::after {
+    display: none;
+  }
+
+  .energy-text-left-two {
+    position: static;
+    max-width: none;
+    text-align: center;
+    margin: 40px 0;
+  }
+
+  .energy-text-left-two h3 {
+    padding: 10px 0;
+  }
+
+  .energy-text-left-two p {
+    padding: 0;
+  }
+
+  .energy-text-left-two::after {
+    display: none;
+  }
+
+  .energy-text-right-one {
+    position: static;
+    max-width: none;
+    text-align: center;
+    margin: 40px 0;
+  }
+
+  .energy-text-right-two {
+    position: static;
+    max-width: none;
+    text-align: center;
+    margin: 40px 0;
+  }
+
+  .energy-box {
+    margin: 0;
+  }
+
+  .vegan-box-img {
+    text-align: center;
+    padding: 0 45px;
+  }
+}
+
+@media (max-width: 960px) {
+  .last-bar {
+    display: block;
+  }
+
+  .last-bar i {
+    font-size: 20px;
+    color: #73a702;
+  }
+
+  .nav-1 {
+    display: none;
+  }
+
+  .toogle-sidebar {
+    display: block;
+  }
+
+  .nav {
+    display: block;
+    position: fixed;
+    width: 30%;
+    height: 100%;
+    background-color: #73a702;
+    z-index: 999;
+    right: -320px;
+    top: 120px;
+    transition: all 700ms ease;
+  }
+
+  #check:checked ~ .toogle-sidebar .nav {
+    right: 71px;
+  }
+
+  .last-nav {
+    display: flex;
+  }
+
+  .online-span::before {
+    content: "|";
+    position: absolute;
+    right: 208px;
+    top: 0;
+    color: #d4a88c;
+  }
+
+  .one-icon {
+    padding-right: 15px;
+  }
+
+  .nav ul li {
+    color: #ffffff;
+    padding: 8px 15px 8px 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    transition: all 0.3s ease;
+  }
+
+  .nav ul li a {
+    color: #ffffff;
+    font-size: 14px;
+  }
+
+  .head-row {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .menu-head-box p {
+    padding: 0 130px;
+  }
+
+  .apple-image {
+    padding: 0 25px;
+  }
+
+  .news-email {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+  }
+
+  .discount-image img {
+    width: 100%;
+  }
+
+  .about-row {
+    display: block;
+  }
+
+  .food-overlay a {
+    top: 39%;
+    left: 25%;
+  }
+
+  .vegan-box-img {
+    text-align: center;
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 757px) {
+  .one-icon {
+    display: none;
+  }
+
+  .two-icon {
+    display: none;
+  }
+
+  .nav {
+    width: 40%;
+    right: -351px;
+  }
+
+  .head-row {
+    display: grid;
+    grid-template-columns: 90% 10%;
+  }
+
+  .about-image img {
+    width: 70%;
+  }
+
+  .about-image {
+    text-align: center;
+  }
+
+  .about-text {
+    margin-top: 100px;
+  }
+
+  .leaf-row {
+    display: inline-block;
+  }
+
+  .leaf-coulm {
+    width: 100%;
+  }
+
+  .btn-vegan {
+    padding: 12px 35px;
+    background: #73a702;
+    color: white;
+    font-size: 11px;
+    font-weight: 400;
+    border: 2px solid #73a702;
+    font-family: "Roboto Slab", serif;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .vegan-content p {
+    color: #ffffff;
+    padding: 13px 47px;
+    font-size: 13px;
+  }
+
+  .team-row {
+    display: block;
+  }
+
+  .team-image {
+    text-align: center;
+  }
+
+  .team-back {
+    padding-bottom: 15%;
+  }
+
+  .test-row {
+    display: block;
+  }
+
+  .test-content {
+    width: 100%;
+  }
+
+  .test-img {
+    display: none;
+  }
+
+  .test {
+    padding-bottom: 65px 20px;
+  }
+
+  .test-content {
+    border: 2px solid white;
+    background-color: white;
+    height: auto;
+    width: auto;
+    text-align: center;
+    padding: 40px 60px;
+    margin: 60px 0px;
+    position: static;
+  }
+
+  .gallery-coulm {
+    width: 100%;
+  }
+
+  .apple-box {
+    display: none;
+  }
+
+  .news-row {
+    display: block;
+    padding: 0 25px;
+  }
+
+  .email-box {
+    padding: 120px 0;
+  }
+
+  .contact-row {
+    display: block;
+  }
+
+  .location-box {
+    padding-left: 0;
+    padding-top: 60px;
+  }
+
+  .footer-row {
+    display: block;
+  }
+
+  .footer-colum {
+    padding: 30px 0;
+  }
+
+  .discount-image img {
+    width: auto;
+  }
+
+  .footer-colum-two {
+    padding: 30px 0;
+    margin-left: 65px;
+  }
+
+  .team-text p {
+    padding-top: 20px;
+  }
+
+  .food-overlay a {
+    top: 34%;
+    left: 12%;
+  }
+
+  .owl-carousel .owl-item img {
+    width: 100% !important;
+  }
+
+  .owl-nav {
+    display: none;
+  }
+}
+
+@media (max-width: 575px) {
+  .one-icon {
+    display: none;
+  }
+
+  .two-icon {
+    display: none;
+  }
+
+  .nav-img {
+    padding-left: 0;
+  }
+
+  .order-text {
+    font-size: 18px;
+  }
+
+  .orde-two {
+    padding: 100px 0px 65px;
+  }
+
+  .owl-nav {
+    display: none;
+  }
+
+  .button-menu {
+    padding-right: 0;
+  }
+
+  .menu-head-box p {
+    padding: 0 50px;
+  }
+
+  .leaf-para {
+    padding-top: 12px;
+    padding-right: 0px;
+    font-size: 13px;
+  }
+
+  .vegan-content span {
+    font-size: 31px;
+  }
+
+  .vegan-content h2 {
+    font-size: 26px;
+  }
+
+  .vegan-content p {
+    font-size: 11px;
+    padding: 10px 47px;
+  }
+
+  .btn-vegan {
+    padding: 11px 30px;
+    font-size: 9px;
+  }
+
+  .news-row {
+    padding: 0 15px;
+  }
+
+  .news-email {
+    display: grid;
+    grid-template-columns: 28% 47% 25%;
+  }
+
+  .food-image {
+    width: 65%;
+  }
+
+  .food-overlay a {
+    top: 40%;
+    left: 14%;
+    font-size: 11px;
+    padding: 10px 19px;
+  }
+
+  .owl-carousel .owl-item img {
+    width: 100% !important;
+  }
+
+  .slide-content {
+    border: 2px solid white;
+    background-color: white;
+    height: 33%;
+    width: 60%;
+    text-align: center;
+    padding: 25px 28px;
+    margin: 90px 30px;
+    position: absolute;
+    top: 17%;
+    left: 14%;
+  }
+
+  .vegan-box-img {
+    padding: 0 77px;
+  }
+
+  .button-banner-vegan {
+    padding: 0;
+  }
+}
+
+@media (max-width: 360px) {
+  .one-icon {
+    display: none;
+  }
+
+  .two-icon {
+    display: none;
+  }
+
+  .head-row {
+    display: grid;
+    grid-template-columns: 75% 25%;
+  }
+
+  .owl-theme .owl-nav {
+    display: none;
+  }
+
+  .banner {
+    padding-top: 125px;
+  }
+
+  .nav {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #73a702;
+    z-index: 999;
+    right: -500px;
+    top: 120px;
+    transition: all 700ms ease;
+  }
+
+  .nav-img {
+    text-align: center;
+  }
+
+  .about {
+    margin: 0;
+  }
+
+  .slider-image {
+    width: 100%;
+    height: 332px;
+    position: relative;
+  }
+
+  .about-text {
+    margin-bottom: 30px;
+    margin-top: 100px;
+  }
+
+  .slide-content {
+    border: 2px solid white;
+    background-color: white;
+    height: 54%;
+    width: 68%;
+    text-align: center;
+    padding: 14px 13px;
+    margin: 0;
+    position: absolute;
+    top: 4%;
+    left: 14%;
+  }
+
+  .vegan-box-img {
+    padding: 0px 50px;
+  }
+
+  .btn-banner-vegan {
+    margin-top: 8px;
+    font-size: 12px;
+  }
+
+  .slide-content p {
+    padding: 9px 0;
+  }
+
+  .team-image img {
+    padding: 0 50px;
+    width: 100%;
+  }
+
+  .energy-text-up p {
+    font-size: 13px;
+  }
+
+  .energy-text-left-one p {
+    font-size: 13px;
+  }
+
+  .energy-text-left-two p {
+    font-size: 13px;
+  }
+
+  .energy-text-right-one p {
+    font-size: 13px;
+  }
+
+  .energy-text-right-two p {
+    font-size: 13px;
+  }
+
+  .vega {
+    font-family: "Great Vibes", cursive;
+    font-size: 31px;
+  }
+
+  .news-email {
+    display: block;
+  }
+
+  .email-heading {
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .email-input input {
+    margin-bottom: 20px;
+  }
+
+  .email-button {
+    padding: 0;
+    text-align: center;
+  }
+
+  .food-colum {
+    display: block;
+  }
+
+  .food-image {
+    width: 100%;
+  }
+
+  .food-overlay a {
+    top: 45%;
+    left: 30%;
+  }
+}

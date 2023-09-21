@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="res.css">
+
+    <!-- Custom Scroll Bar Css -->
+
+    <link rel="stylesheet" href="/custom scrolbar/css/jquery.mCustomScrollbar.css" type="text/css">
+    <!-- <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.css"
+        integrity="sha512-fxF1t7b0mpb/ytjBeSu/OpgXxCVcX5/O8AJGYvHaWmNfi/lYLtttitFK17K4iKBva4iU9dcZ+BIV7dyD/nDdSw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+
+    <!-- Font Aweosm  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- owl-carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.green.css"
+        integrity="sha512-riTSV+/RKaiReucjeDW+Id3WlRLVZlTKAJJOHejihLiYHdGaHV7lxWaCfAvUR0ErLYvxTePZpuKZbrTbwpyG9w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Animation Css  -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+</head>
+
+<body>
+
+
+    <header class="head">
+        <div class="head-row">
+            <div class="nav-1">
+                <ul class="nav-ul">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">MENU</a></li>
+                    <li><a href="#">RESERVATION</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">GALLERY</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                </ul>
+            </div>
+            <div class="logo">
+                <img src="logo.jpg" alt="">
+            </div>
+            <div class="last-nav">
+                <div class="one-icon">
+                    RESERVATION: 1-800-23-456-7890<span><i class="fa-solid fa-square-check"></i></span>
+                </div>
+                <div class="two-icon">
+                    <span class="online-span">ONLINE BOOKING</span><i class="fa-solid fa-calendar-days"></i>
+                </div>
+                <div class="last-bar">
+                    <input type="checkbox" id="check">
+                    <label for="check">
+                        <i class="fa-solid fa-bars"></i>
+                    </label>
+                    <div class="toogle-sidebar">
+                        <div class="mCustomScrollbar">
+                            <!-- your content -->
+
+                            <div class="nav">
+                                <div class="nav-img">
+                                    <img src="sidenav-logo.png" alt="logo">
+                                </div>
+                                <ul>
+                                    <li><a href="#">HOME</a></li>
+                                    <li><a href="#">ABOUT US</a></li>
+                                    <li><a href="#">MENU</a></li>
+                                    <li><a href="#">RESERVATION</a></li>
+                                    <li><a href="#">SERVICES</a></li>
+                                    <li><a href="#">GALLERY</a></li>
+                                    <li><a href="#">BLOG</a></li>
+                                    <li><a href="#">CONTACT US</a></li>
+                                </ul>
+                                <div class="social-links-nav">
+                                    <ul>
+                                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
+                                        <li> <a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Banner Slider -->
+
+    <section class="banner">
+        <div class="banner-owl owl-carousel owl-theme">
+            <div class="item">
+                <div class="slider-image"><img src="slider 1.jpg" alt=""></div>
+                <div class="slide-content">
+                    <div class="vegan-box-img">
+                        <img src="content-image-3.png" alt="">
+                    </div>
+                    <p>
+                        “These days are all share them with me oh baby a man is born he is a man of means
+                    </p>
+                    <div class="button-banner-vegan">
+                        <button type="button" class="btn-banner-vegan">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="slider-image"><img src="s.jpeg" alt=""></div>
+                <div class="slide-content">
+                    <div class="vegan-box-img">
+                        <img src="content-image-3.png" alt="">
+                    </div>
+                    <p>
+                        “These days are all share them with me oh baby a man is born he is a man of means
+                    </p>
+                    <div class="button-banner-vegan">
+                        <button type="button" class="btn-banner-vegan">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us  -->
+
+    <section class="about">
+        <div class="container">
+            <div class="about-row">
+                <div class="animate__animated animate__fadeInLeft">
+                    <div class="about-image">
+                        <img src="about food.jpg" alt="">
+                    </div>
+                </div>
+                <div class="main-about">
+                    <div class="about-text">
+                        <div class="milan">Welcome to Milan</div>
+                        <h2>ABOUT US</h2>
+                        <p>
+                            These days are all Happy and Free these days are all share them with me oh baby its time to
+                            play
+                            the music you would see the biggest gift would be from me and the card attached would say
+                            thank
+                            you for being a friend space the final frontier these are the voyages of the Starship
+                            Enterprise.
+                        </p>
+                        <!-- Button  -->
+                        <button type="button" class="btn-about">READ MORE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Order Section  -->
+
+    <section class="order">
+        <div class="order-box">
+            <div class="order-text">
+                <p>We are Fast in Delivery! Order through online</p>
+                <h5>Call us to: (1-800 23 456 7890)</h5>
+
+                <!-- butoon order  -->
+                <div class="button-order">
+                    <button type="button" class="btn-order">ORDER ONLINE</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Menu Section  -->
+
+    <section class="menu">
+        <div class="container">
+            <div class="menu-head-box">
+                <div class="vega">Vegan Friendly Flavours</div>
+                <h2>OUR MENU</h2>
+                <p>These days are all Happy and Free these days are all share them with me oh baby Its time to play the
+                    music if not for the courage of the fearless crew the Minnow would be lost.</p>
+            </div>
+            <div class="menu-row">
+                <!-- food-colum 1 -->
+                <div class="food-colum">
+                    <div class="food-image">
+                        <img src="f1.jpg" alt="">
+
+                        <div class="food-over">
+                            <div class="food-overlay">
+                                <a href="#">ORDER NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-text">
+                        <div class="food-details">
+                            <span class="food-left">Vegetable Salad</span>
+                            <span class="food-right">$10.50</span>
+                        </div>
+                        <div class="food-para">
+                            <p>The sith me oh baby Its time to play the music if not for the courage of the fearless
+                                crew the Minnow would be lost.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- food-colum 2 -->
+                <div class="food-colum">
+                    <div class="food-image">
+                        <img src="f2.jpg" alt="">
+
+                        <div class="food-over">
+                            <div class="food-overlay">
+                                <a href="#">ORDER NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-text">
+                        <div class="food-details">
+                            <span class="food-left">Green Vegetable Juice</span>
+                            <span class="food-right">$20.00</span>
+                        </div>
+                        <div class="food-para">
+                            <p>The sith me oh baby Its time to play the music if not for the courage of the fearless
+                                crew the Minnow would be lost.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- food-colum 3 -->
+                <div class="food-colum">
+                    <div class="food-image">
+                        <img src="f3.jpg" alt="">
+
+                        <div class="food-over">
+                            <div class="food-overlay">
+                                <a href="#">ORDER NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-text">
+                        <div class="food-details">
+                            <span class="food-left">Mushroom Salad</span>
+                            <span class="food-right">$13.30</span>
+                        </div>
+                        <div class="food-para">
+                            <p>The sith me oh baby Its time to play the music if not for the courage of the fearless
+                                crew the Minnow would be lost.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- food-colum 4 -->
+                <div class="food-colum">
+                    <div class="food-image">
+                        <img src="f4.jpg" alt="">
+
+                        <div class="food-over">
+                            <div class="food-overlay">
+                                <a href="#">ORDER NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-text">
+                        <div class="food-details">
+                            <span class="food-left">Pineapple Juice</span>
+                            <span class="food-right">$22.40</span>
+                        </div>
+                        <div class="food-para">
+                            <p>The sith me oh baby Its time to play the music if not for the courage of the fearless
+                                crew the Minnow would be lost.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- food-colum 5 -->
+                <div class="food-colum">
+                    <div class="food-image">
+                        <img src="f5.jpg" alt="">
+
+                        <div class="food-over">
+                            <div class="food-overlay">
+                                <a href="#">ORDER NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-text">
+                        <div class="food-details">
+                            <span class="food-left">Fruit Salad</span>
+                            <span class="food-right">$15.25</span>
+                        </div>
+                        <div class="food-para">
+                            <p>The sith me oh baby Its time to play the music if not for the courage of the fearless
+                                crew the Minnow would be lost.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- food-colum 6 -->
+                <div class="food-colum">
+                    <div class="food-image">
+                        <img src="f6.jpg" alt="">
+
+                        <div class="food-over">
+                            <div class="food-overlay">
+                                <a href="#">ORDER NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-text">
+                        <div class="food-details">
+                            <span class="food-left">Spicy Tomato Soup</span>
+                            <span class="food-right">$25.00</span>
+                        </div>
+                        <div class="food-para">
+                            <p>The sith me oh baby Its time to play the music if not for the courage of the fearless
+                                crew the Minnow would be lost.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- food-colum 7 -->
+                <div class="food-colum">
+                    <div class="food-image">
+                        <img src="f7.jpg" alt="">
+
+                        <div class="food-over">
+                            <div class="food-overlay">
+                                <a href="#">ORDER NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-text">
+                        <div class="food-details">
+                            <span class="food-left">Vegetable Pizza</span>
+                            <span class="food-right">$18.50 </span>
+                        </div>
+                        <div class="food-para">
+                            <p>The sith me oh baby Its time to play the music if not for the courage of the fearless
+                                crew the Minnow would be lost.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- food-colum 8 -->
+                <div class="food-colum">
+                    <div class="food-image">
+                        <img src="f8.jpg" alt="">
+
+                        <div class="food-over">
+                            <div class="food-overlay">
+                                <a href="#">ORDER NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-text">
+                        <div class="food-details">
+                            <span class="food-left">Mushroom Soup</span>
+                            <span class="food-right">$30.10</span>
+                        </div>
+                        <div class="food-para">
+                            <p>The sith me oh baby Its time to play the music if not for the courage of the fearless
+                                crew the Minnow would be lost.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Button  -->
+            <div class="button-menu">
+                <button type="button" class="btn-menu">VIEW FULL MENU</button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Order Section  -->
+
+    <section class="orde-two">
+        <div class="orde-two-box">
+            <div class="orde-two-text">
+                <p>``I decided to pick the diet that I thought would maximize my chances of long-term survival.”</p>
+                <h5>- AL GORE -</h5>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Feature Section  -->
+
+    <section class="menu">
+        <div class="container">
+            <div class="menu-head-box">
+                <div class="vega">Why Choose Vegan Spot</div>
+                <h2>FEATURES </h2>
+                <p>These days are all Happy and Free these days are all share them with me oh baby Its time to play the
+                    music if not for the courage of the fearless crew the Minnow would be lost.</p>
+            </div>
+            <div class="leaf-row">
+                <!-- leaf-coulm 1 -->
+                <div class="leaf-coulm">
+                    <div class="leaf-box">
+                        <div class="leaf-image">
+                            <i class="fa-solid fa-seedling"></i>
+                        </div>
+                    </div>
+                    <div class="leaf-text">
+                        <div class="leaf-heading">
+                            <h3>GLUTEN FREE</h3>
+                        </div>
+                        <div class="leaf-para">
+                            <p>These days are all Happy and Free these days are all share them with me oh baby Its time
+                                to play the music.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- leaf-coulm 2 -->
+                <div class="leaf-coulm">
+                    <div class="leaf-box">
+                        <div class="leaf-image">
+                            <i class="fa-solid fa-utensils"></i>
+                        </div>
+                    </div>
+                    <div class="leaf-text">
+                        <div class="leaf-heading">
+                            <h3>WEIGHT LOSS</h3>
+                        </div>
+                        <div class="leaf-para">
+                            <p>These days are all Happy and Free these days are all share them with me oh baby Its time
+                                to play the music.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- leaf-coulm 3 -->
+                <div class="leaf-coulm">
+                    <div class="leaf-box">
+                        <div class="leaf-image">
+                            <i class="fa-brands fa-canadian-maple-leaf"></i>
+                        </div>
+                    </div>
+                    <div class="leaf-text">
+                        <div class="leaf-heading">
+                            <h3>RADICAL CHANGE</h3>
+                        </div>
+                        <div class="leaf-para">
+                            <p>These days are all Happy and Free these days are all share them with me oh baby Its time
+                                to play the music.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- leaf-coulm 4-->
+                <div class="leaf-coulm">
+                    <div class="leaf-box">
+                        <div class="leaf-image">
+                            <i class="fa-brands fa-envira"></i>
+                        </div>
+                    </div>
+                    <div class="leaf-text">
+                        <div class="leaf-heading">
+                            <h3>INCREASES ANTIOXIDANT</h3>
+                        </div>
+                        <div class="leaf-para">
+                            <p>These days are all Happy and Free these days are all share them with me oh baby Its time
+                                to play the music.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- leaf-coulm 5 -->
+                <div class="leaf-coulm">
+                    <div class="leaf-box">
+                        <div class="leaf-image">
+                            <i class="fa-solid fa-apple-whole"></i>
+                        </div>
+                    </div>
+                    <div class="leaf-text">
+                        <div class="leaf-heading">
+                            <h3>COMPLETE DIET</h3>
+                        </div>
+                        <div class="leaf-para">
+                            <p>These days are all Happy and Free these days are all share them with me oh baby Its time
+                                to play the music.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- leaf-coulm 6 -->
+                <div class="leaf-coulm">
+                    <div class="leaf-box">
+                        <div class="leaf-image">
+                            <i class="fa-brands fa-pagelines"></i>
+                        </div>
+                    </div>
+                    <div class="leaf-text">
+                        <div class="leaf-heading">
+                            <h3>REDUCED SATURATED FATS</h3>
+                        </div>
+                        <div class="leaf-para">
+                            <p>These days are all Happy and Free these days are all share them with me oh baby Its time
+                                to play the music.</p>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Vegan Section  -->
+
+    <section class="vegan">
+        <div class="vegan-image">
+            <!-- <img src="image-11.jpg" alt=""> -->
+            <div class="vegan-content">
+                <span>Awesome Vegan Theme Ever</span>
+                <h2>VEGAN</h2>
+                <p>These days are all Happy and Free these days are all share them with me oh baby Its time to play the
+                    music if not for the courage of the fearless crew the Minnow would be lost.</p>
+                <!-- button  -->
+                <div class="vegan-button">
+                    <button type="button" class="btn-vegan">PURCHASE NOW</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Team Section  -->
+
+    <section class="team">
+        <div class="container">
+            <div class="menu-head-box">
+                <div class="vega">Meet the Vegan Team</div>
+                <h2>OUR CHEFS </h2>
+                <p>These days are all Happy and Free these days are all share them with me oh baby Its time to play the
+                    music if not for the courage of the fearless crew the Minnow would be lost.</p>
+            </div>
+            <div class="team-row">
+                <div class="team-image">
+                    <img src="team-image-5.jpg" alt="">
+                </div>
+                <div class="team-back">
+                    <div class="team-text">
+                        <p>These days are all share them with me oh baby a man is born he's a man of means then along
+                            come
+                            two they got nothing but their jeans the mate was a mighty sailing man the Skipper brave and
+                            sure five passengers set sail that day for a three hour tour a three hour tour.</p>
+
+                        <h4>ALEXANDREA</h4>
+                        <span>CO-FOUNDER</span>
+                        <div class="social-links">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                        </div>
+                        <div class="team-email">
+                            <a href="#"><i class="fa-regular fa-envelope"></i> Alexandrea@veganspot.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- TESTIMONIALS section  -->
+
+    <section class="test">
+        <div class="container">
+            <div class="test-head">
+                <span>What Our Customers Says</span>
+                <h2>TESTIMONIALS</h2>
+            </div>
+            <div class="test-owl owl-carousel owl-theme">
+                <div class="item">
+                    <div class="test-row">
+                        <div class="test-img">
+                            <img src="t1.png" alt="">
+                        </div>
+                        <div class="test-content">
+                            <p>
+                                “These days are all share them with me oh baby a man is born he is a man of means then
+                                along
+                                come two they got nothing but their jeans your heart is true you are a pal and a
+                                confidant come
+                                and knock.”
+                            </p>
+                            <h5>Marai Jones</h5>
+                            <span>CEO,Freshfarm</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="test-row">
+                        <div class="test-img">
+                            <img src="t1.png" alt="">
+                        </div>
+                        <div class="test-content">
+                            <p>
+                                “These days are all share them with me oh baby a man is born he is a man of means then
+                                along
+                                come two they got nothing but their jeans your heart is true you are a pal and a
+                                confidant come
+                                and knock.”
+                            </p>
+                            <h5>Marai Jones</h5>
+                            <span>CEO,Freshfarm</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Gallery Section  -->
+
+    <section class="gallery">
+        <div class="container">
+            <div class="menu-head-box">
+                <div class="vega">Our Fresh Natures</div>
+                <h2>GALLERY</h2>
+                <p>These days are all Happy and Free these days are all share them with me oh baby Its time to play the
+                    music if not for the courage of the fearless crew the Minnow would be lost.</p>
+            </div>
+            <div class="gallery-row">
+                <!-- gallery-coulm 1 -->
+                <div class="gallery-coulm">
+                    <div class="gallery-image">
+                        <img src="g1.jpg" alt="">
+                        <div class="gallery-overlay">
+                            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            <h3>SMALL RADISH</h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- gallery-coulm 2 -->
+                <div class="gallery-coulm">
+                    <div class="gallery-image">
+                        <img src="g2.jpg" alt="">
+                        <div class="gallery-overlay">
+                            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            <h3>SMALL RADISH</h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- gallery-coulm 3 -->
+                <div class="gallery-coulm">
+                    <div class="gallery-image">
+                        <img src="g3.jpg" alt="">
+                        <div class="gallery-overlay">
+                            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            <h3>SMALL RADISH</h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- gallery-coulm 4 -->
+                <div class="gallery-coulm">
+                    <div class="gallery-image">
+                        <img src="g4.jpg" alt="">
+                        <div class="gallery-overlay">
+                            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            <h3>SMALL RADISH</h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- gallery-coulm 5 -->
+                <div class="gallery-coulm">
+                    <div class="gallery-image">
+                        <img src="g5.jpg" alt="">
+                        <div class="gallery-overlay">
+                            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            <h3>SMALL RADISH</h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- gallery-coulm 6 -->
+                <div class="gallery-coulm">
+                    <div class="gallery-image">
+                        <img src="g6.jpg" alt="">
+                        <div class="gallery-overlay">
+                            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            <h3>SMALL RADISH</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ENERGY Section -->
+
+    <section class="energy">
+        <div class="container">
+            <div class="menu-head-box">
+                <div class="vega">Pure Organic of Vegan</div>
+                <h2>RECOMMEND</h2>
+                <p>These days are all Happy and Free these days are all share them with me oh baby Its time to play the
+                    music if not for the courage of the fearless crew the Minnow would be lost.</p>
+            </div>
+            <div class="energy-box">
+                <div class="energy-content">
+                    <div class="animate__animated animate__fadeInDown animate__slow ">
+                        <div class="energy-text-up">
+                            <h3>ADDED CALORIES</h3>
+                            <p>All share them with me oh baby Its time to play the music.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="animate__animated animate__fadeInDown animate__slow ">
+                        <div class="energy-text-left-one">
+                            <h3>MIXER OF PROTEINS</h3>
+                            <p>All share them with me oh baby Its time to play the music.</p>
+                        </div>
+                    </div>
+                    <div class="animate__animated animate__fadeInDown animate__slow ">
+                        <div class="energy-text-left-two">
+                            <h3>REDUCE CHOLESTEROL</h3>
+                            <p>All share them with me oh baby Its time to play the music.</p>
+                        </div>
+                    </div>
+                    <div class="animate__animated animate__fadeInDown animate__slow ">
+                        <div class="energy-text-right-one">
+                            <h3>100% NATURAL</h3>
+                            <p>All share them with me oh baby Its time to play the music.</p>
+                        </div>
+                    </div>
+                    <div class="animate__animated animate__fadeInDown animate__slow ">
+                        <div class="energy-text-right-two">
+                            <h3>FULL OF ENERGY</h3>
+                            <p>All share them with me oh baby Its time to play the music.</p>
+                        </div>
+                    </div>
+                    <div class="engery-image">
+                        <img src="recommended-item-1.jpg" alt=""
+                            class="animate__animated animate__fadeInUp animate__slower">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div id="wrapper">
+        <!-- Vegan Spot  -->
+
+        <section class="vegan-spot">
+            <div class="container">
+                <div class="menu-head-box">
+                    <div class="vega">Make Everyday Fresh With</div>
+                    <h2 class="veg">VEGAN SPOT</h2>
+                    <p>These days are all Happy and Free these days are all share them with me oh baby Its time to play
+                        the
+                        music if not for the courage of the fearless crew the Minnow would be lost.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- News Letter -->
+
+        <section class="news">
+            <div class="container">
+                <div class="news-row">
+                    <div class="animate__animated animate__bounceInUp">
+                        <div class="apple-box">
+                            <div class="apple-image">
+                                <img src="apple-image.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="email-box">
+                        <div class="news-email">
+                            <div class="email-heading">
+                                <h3>NEWSLETTER</h3>
+                            </div>
+                            <div class="email-input">
+                                <input type="text" name="email" value placeholder="Your EmailYour Email" required>
+                            </div>
+                            <div class="email-button">
+                                <button type="button" class="btn-email">SUBSCRIBE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <!-- contact form -->
+
+    <section class="contact">
+        <div class="container">
+            <div class="contact-row">
+                <div class="contact-form">
+                    <div class="contact-heading">
+                        <h2>CONTACT US</h2>
+                    </div>
+                    <div class="default-form">
+                        <div class="d-form">
+                            <input type="text" class="your-form" placeholder="First Name">
+                        </div>
+                        <div class="d-form">
+                            <input type="text" class="your-form" placeholder="Last Name">
+                        </div>
+                        <div class="d-form">
+                            <input type="text" class="your-form" placeholder="Your Email">
+                        </div>
+                        <div class="d-form">
+                            <input type="text" class="your-form" placeholder="Your Phone">
+                        </div>
+                        <div class="d-form">
+                            <input type="text" class="comment-form" placeholder="Comments">
+                        </div>
+                    </div>
+                    <!-- button  -->
+                    <div class="form-button">
+                        <button type="button" class="btn-form">Send Message</button>
+                    </div>
+                </div>
+                <div class="location-box">
+                    <div class="contact-heading">
+                        <h2>LOCATION</h2>
+                    </div>
+                    <div class="location-links">
+                        <div class="s-icon">
+                            <i class="fa-solid fa-phone"></i><span>1-800-23-456-7890</span>
+                        </div>
+                        <div class="s-icon">
+                            <i class="fa-solid fa-location-dot"></i><span>MH03,Grasp Street,North Texas,USA</span>
+                        </div>
+                        <div class="s-icon">
+                            <i class="fa-regular fa-envelope-open"></i> <span>info@domainname.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer Section  -->
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-row">
+
+
+                <div class="footer-colum">
+
+                    <div class="footer-heading">
+                        <h4>About Milan</h4>
+                    </div>
+
+
+                    <div class="footer-para">
+                        <p>These days are all share them with me oh baby a man is born he's a man of means then along
+                            come two they got nothing but their jeans the mate.</p>
+                    </div>
+
+
+                    <div class="footer-social">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+
+                        <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+
+
+                </div>
+
+
+                <div class="footer-colum-two">
+                    <div class="footer-heading">
+                        <h4>Quick Links</h4>
+                    </div>
+                    <div class="footer-links">
+                        <a href="#">Home</a>
+                        <a href="#">About</a>
+                        <a href="#">Services</a>
+                        <a href="#">Pricing</a>
+                        <a href="#">Contact Us</a>
+                    </div>
+                </div>
+
+                <div class="footer-colum">
+                    <div class="footer-heading">
+                        <h4>Working Hours</h4>
+                    </div>
+                    <ul>
+                        <li>Mon-Fri: 7.00AM to 11.30PM</li>
+                        <li>Saturday: 8.00AM to 12.00PM</li>
+                        <li>Sunday: CLOSED</li>
+                    </ul>
+                </div>
+
+
+                <div class="footer-colum">
+                    <div class="footer-heading">
+                        <h4>Discount Offer</h4>
+                    </div>
+                    <div class="discount-image">
+                        <img src="coupon-image.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- credit section  -->
+
+
+        <footer class="credit">
+            <div class="my-credit">
+                <p>© 2023 All Rights Reserved. By Rafay Mughal</p>
+            </div>
+        </footer>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="custom scrolbar/js/jquery-1.7.2.min.js"></script>
+    <script src="custom scrolbar/js/jquery-ui-1.8.21.custom.min.js"></script>
+    <script src="custom scrolbar/js/jquery.mousewheel.min.js"></script>
+    <script src="custom scrolbar/js/jquery.mCustomScrollbar.min.js"></script>
+
+    <script>
+        (function ($) {
+            $(window).on("load", function () {
+                $(".nav").mCustomScrollbar();
+            });
+        })(jQuery);
+    </script>
+
+    <!-- Custom Scroll Bar Jquery  -->
+
+    <!-- <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.js"
+        integrity="sha512-Yk47FuYNtuINE1w+t/KT4BQ7JaycTCcrvlSvdK/jry6Kcxqg5vN7/svVWCxZykVzzJHaxXk5T9jnFemZHSYgnw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+    <!-- font-family: 'Roboto Slab', serif;
+
+font-family: 'Great Vibes', cursive; -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="java.js"></script>
+</body>
+
+</html>
